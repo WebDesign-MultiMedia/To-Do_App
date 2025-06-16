@@ -1,12 +1,65 @@
-# React + Vite
+📝 To-Do App
+==
+A sleek and interactive To-Do application designed to help users manage their daily tasks efficiently. This project combines modern React features, Tailwind CSS styling, and enhanced UI/UX functionality.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+==
+  ✅ Add, Complete, Delete Tasks: Easily manage your to-do list with full control over your entries.
 
-Currently, two official plugins are available:
+  🔁 Undo Completed Tasks: Users can revert completed tasks back to the active list.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  ⬆️⬇️ Move Tasks: Reorder your tasks using the move up and move down controls.
 
-## Expanding the ESLint configuration
+  🕒 Timestamped Completions: Completed tasks are saved with the exact time and date they were finished.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  💾 Local Storage Integration: Tasks and completed entries persist in the browser using localStorage.
+
+  🎨 Stylish Interface: Tailwind CSS powers the layout and style, while animated backgrounds created with CSS keyframes enhance the user experience.
+
+  🔠 Custom Fonts: Utilizes Google Fonts for typography and Font Awesome for intuitive iconography.
+
+  🧠 Tech Stack
+==
+React.js:
+- useState for managing UI state
+- useEffect for syncing data with localStorage
+
+Tailwind CSS for responsive and modern styling
+
+Font Awesome for icons
+
+Google Fonts for clean and readable font styles
+
+CSS Keyframes for animated background effects
+
+📂 Project Setup
+==
+1) Clone the repository
+git clone https://github.com/your-username/todo-app.git
+
+2) Navigate into the project directory
+cd todo-app
+
+3) Install dependencies
+npm install
+
+4) Run the app
+npm start
+
+📸 Screenshot
+==
+A. Mobile-Responsive
+
+![iphone-15-pro-localhost-4znbe5sy9bxhcr](https://github.com/user-attachments/assets/be6b0fd2-c355-43bd-a0b8-64beabb33eaf)
+
+
+B. Laptop-Responsive
+
+![dell-latitude-localhost-zktqg64rj2p_wk](https://github.com/user-attachments/assets/50a44b0c-411f-4038-a4ec-326990da760f)
+
+
+
+
+
+
+
